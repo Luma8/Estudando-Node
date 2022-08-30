@@ -1,0 +1,28 @@
+POST http://localhost:3030/products
+Content-Type: application/json
+
+{
+    "name": "leite moça",
+    "price": 3.15
+}
+
+###
+
+
+GET http://localhost:3030/products
+
+### 
+GET http://localhost:3030/products/8e723df9-098f-4576-a53a-b6ea1b22f2a3
+
+###
+
+PUT http://localhost:3030/products/d10db160-8cce-45cf-ada3-e2501ae1bc31
+Content-Type: application/json
+
+{
+    "name": "Item Atualizado",
+    "price": 22.22
+}
+
+###
+DELETE http://localhost:3030/products/
